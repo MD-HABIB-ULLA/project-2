@@ -1,0 +1,386 @@
+@import url('https://fonts.googleapis.com/css2?family=Mulish:wght@200;300;400;500;600;700;800;900;1000&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Mulish', sans-serif;
+    box-sizing: border-box;
+}
+
+html,
+body {
+    max-width: 1440px;
+    width: 100%;
+    height: 100%;
+}
+
+/* this is nav section */
+.navber {
+    width: 81.25%;
+    margin: auto;
+    padding-top: 2.4vw;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+
+.logo {
+    display: flex;
+    align-items: center;
+    height: 2.9vw;
+    gap: 1vw;
+    cursor: pointer;
+}
+
+.logo img {
+    height: 100%;
+}
+
+.logo h1 {
+    color: #131318;
+    font-family: Mulish;
+    font-size: 1.8vw;
+    font-weight: 800;
+}
+
+.logo h1 span {
+    color: #FF5400;
+}
+
+.list-item {
+    width: 43%;
+}
+
+.list {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    list-style-type: none;
+}
+
+.list li {
+    color: #424247;
+    text-align: center;
+    font-size: 1vw;
+    font-weight: 400;
+    cursor: pointer;
+}
+
+.menu {
+    display: none;
+}
+
+/* end of nav section */
+
+
+/* banner section start */
+
+.banner {
+    width: 81.25%;
+    margin: auto;
+    margin-top: 3vw;
+    background: linear-gradient(180deg, rgba(19, 19, 24, 0.80) 0%, rgba(19, 19, 24, 0.00) 100%), url('../images/banner.png') center/cover;
+    background-repeat: no-repeat;
+    border-radius: .9vw;
+    color: #fff;
+    text-align: center;
+    padding: 5.5vw 12.8vw;
+}
+
+.inner-banner {
+    width: 100%;
+
+}
+
+.inner-banner h1 {
+    font-size: 3.33vw;
+    font-weight: 800;
+}
+
+.inner-banner p {
+    font-size: .9vw;
+    font-weight: 400;
+    line-height: 1.2vw;
+    margin-top: 1vw;
+    margin-bottom: 2.4vw;
+}
+
+.banner-selection {
+    width: 69%;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    gap: 1.3vw;
+    padding: .9vw;
+    border-radius: .5vw;
+    background: rgba(255, 255, 255, 0.30);
+}
+
+.banner-selection div {
+    width: 9vw;
+    height: 2.7vw;
+    border-radius: .4vw;
+    background: #FFF;
+    color: rgba(19, 19, 24, 0.50);
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0vw .9vw;
+
+
+}
+
+.banner-selection div p {
+    font-size: .9vw;
+    font-weight: 400;
+}
+
+.banner-selection div:nth-child(4) {
+    background-color: #FF5400;
+}
+
+
+.button button {
+    outline: none;
+    width: 100%;
+    height: 100%;
+    font-size: .9vw;
+    font-weight: 400;
+    color: #FFF;
+    border: none;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: transparent;
+}
+
+/* end of banner section */
+
+/* popular ture section */
+
+.pop-tour {
+    width: 81.25%;
+    margin: auto;
+    margin-top: 7vw;
+    display: flex;
+    align-items: center;
+    gap: 5%;
+}
+
+.pop-tour-text {
+    width: 45%;
+}
+
+.pop-tour-text h1 {
+    color: #131318;
+    font-size: 2.2vw;
+    font-weight: 800;
+    margin-bottom: 1vw;
+}
+
+.pop-tour-text p {
+    color: rgba(19, 19, 24, 0.70);
+    font-size: 1vw;
+    font-weight: 400;
+    line-height: 1.4vw;
+    margin-bottom: 2vw;
+}
+
+.pop-tour-text ul {
+    padding-left: 1.5vw;
+    color: rgba(19, 19, 24, 0.70);
+    font-size: 1vw;
+    margin-top: 2vw;
+    margin-bottom: 2vw;
+}
+
+.pop-tour-text ul li {
+    margin-top: .5vw;
+}
+
+.pop-img {
+    width: 50%;
+}
+
+.pop-img img {
+    width: 100%;
+}
+
+.btn {
+    outline: none;
+    border: none;
+    border-radius: .4vw;
+    background-color: #FF5400;
+    font-size: 0.9vw;
+    color: #fff;
+    padding: 1vw 2vw;
+}
+
+/* popular tour section end  */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media screen and (max-width:600px) {
+
+    /* this is nav section */
+    .navber {
+        width: 90%;
+        padding-top: 7vw;
+        padding-right: 2vw;
+    }
+
+
+    .logo {
+        height: 7vw;
+        gap: 3vw;
+    }
+
+    .logo img {
+        height: 100%;
+    }
+
+    .logo h1 {
+        font-size: 5vw;
+    }
+
+    .list-item {
+        width: 43%;
+        display: none;
+    }
+
+
+    .menu {
+        display: block;
+    }
+
+
+    /* banner section start */
+
+    .banner {
+        width: 90%;
+        margin-top: 5vw;
+        border-radius: 4vw;
+        padding: 6vw 4vw;
+    }
+
+
+
+    .inner-banner h1 {
+        font-size: 5vw;
+    }
+
+    .inner-banner p {
+        font-size: 3.5vw;
+        font-weight: 400;
+        line-height: 4vw;
+        margin-top: 4vw;
+        margin-bottom: 2.4vw;
+    }
+
+    .banner-selection {
+        width: 90%;
+        margin: auto;
+        flex-direction: column;
+        justify-content: center;
+        gap: 3vw;
+        padding: 3vw;
+        border-radius: 4vw;
+        margin-top: 9vw;
+    }
+
+    .banner-selection div {
+        width: 100%;
+        height: 9vw;
+        border-radius: 2vw;
+        padding: 0vw 4vw;
+
+
+
+    }
+
+    .banner-selection div p {
+        font-size: 4vw;
+    }
+
+
+    .button button {
+        font-size: 3vw;
+
+    }
+
+    /* end of banner section */
+
+    /* popular ture section */
+
+    .pop-tour {
+        width: 90%;
+        flex-direction: column;
+        align-items: center;
+        margin-top: 7vw;
+        gap: 5%;
+    }
+
+    .pop-tour-text {
+        width: 100%;
+    }
+
+    .pop-tour-text h1 {
+        font-size: 5vw;
+        margin-bottom: 7vw;
+    }
+
+    .pop-tour-text p {
+        font-size: 3.5vw;
+        line-height: 4vw;
+        margin-bottom: 7vw;
+    }
+
+    .pop-tour-text ul {
+        padding-left: 5vw;
+        font-size: 3.5vw;
+        margin-top: 2vw;
+        margin-bottom: 7vw;
+    }
+
+    .pop-tour-text ul li {
+        margin-top: .5vw;
+    }
+
+    .pop-img {
+        width: 100%;
+    }
+
+
+    .btn {
+        font-size: 3.5vw;
+        border-radius: 2vw;
+        padding: 2vw 4vw;
+        margin-bottom: 7vw;
+    }
+
+    /* popular tour section end  */
+}
