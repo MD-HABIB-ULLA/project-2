@@ -220,14 +220,74 @@ body {
 
 /* popular tour section end  */
 
+/* detination section start */
+.destinations {
+    width: 81.25%;
+    margin: auto;
+    margin-top: 5vw;
+}
+
+.destinations-description {
+    text-align: center;
+    width: 60%;
+    margin: auto;
+}
+
+.destinations-description h3 {
+    color: #131318;
+    font-size: 2.2vw;
+    font-weight: 800;
+    line-height: normal;
+    margin-bottom: 2vw;
+}
+
+.destinations-description p {
+    color: rgba(19, 19, 24, 0.70);
+    font-size: 0.9vw;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 1.4vw;
+    /* 162.5% */
+}
 
 
 
+.places {
+    width: 100%;
+    display: grid;
+}
+
+.ultimate {
+    position: relative;
+
+}
+.ultimate img {
+    width: 100%;
+}
 
 
 
+.ultimate h3 {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: #FFF;
+    text-align: center;
+    font-family: Mulish;
+    font-size: 2.7vw;
+    font-weight: 800;
+}
 
-
+.se-1,
+.se-2,
+.se-3 {
+    display: flex;
+    gap: 1vw;
+    margin-top: 2%;
+    justify-content: space-between;
+}
+ /* end of destinations section */
 
 
 
@@ -383,4 +443,47 @@ body {
     }
 
     /* popular tour section end  */
+
+    
+/* detination section start */
+.destinations {
+    width: 90%;
+    margin-top: 7vw;
+}
+
+.destinations-description {
+
+    width: 90%;
+
+}
+
+.destinations-description h3 {
+    font-size: 6vw;
+    margin-bottom: 7vw;
+}
+
+.destinations-description p {
+    font-size: 3.5vw;
+    line-height: 4vw;
+}
+
+.places{
+    margin-top: 7vw;
+}
+
+
+
+.ultimate h3 {
+    font-size: 5vw;
+}
+
+.se-1,
+.se-2,
+.se-3 {
+    display: flex;
+    gap: 3vw;
+    margin-top: 2%;
+    flex-direction: column;
+}
+ /* end of destinations section */
 }
