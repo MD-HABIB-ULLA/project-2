@@ -209,15 +209,32 @@ body {
     width: 100%;
 }
 
+
+
 .btn {
-    outline: none;
-    border: none;
+    background-color: rgb(255, 85, 0);
     border-radius: .4vw;
-    background-color: #FF5400;
-    font-size: 0.9vw;
+    box-shadow: rgba(44, 187, 99, .2) 0 -25px 18px -14px inset, rgba(44, 187, 99, .15) 0 1px 2px, rgba(44, 187, 99, .15) 0 2px 4px, rgba(44, 187, 99, .15) 0 4px 8px, rgba(44, 187, 99, .15) 0 8px 16px, rgba(44, 187, 99, .15) 0 16px 32px;
     color: #fff;
+    cursor: pointer;
+    display: inline-block;
+    font-family: CerebriSans-Regular, -apple-system, system-ui, Roboto, sans-serif;
     padding: 1vw 2vw;
+    text-align: center;
+    text-decoration: none;
+    transition: all 250ms;
+    border: 0;
+    font-size: 0.9vw;
+    user-select: none;
+    -webkit-user-select: none;
+    touch-action: manipulation;
 }
+
+.btn:hover {
+    box-shadow: rgba(255, 85, 0, .35) 0 -25px 18px -14px inset, rgba(255, 85, 0, .25) 0 1px 2px, rgba(255, 85, 0, .25) 0 2px 4px, rgba(255, 85, 0, .25) 0 4px 8px, rgba(255, 85, 0, .25) 0 8px 16px, rgba(255, 85, 0, .25) 0 16px 32px;
+    transform: scale(1.05);
+}
+
 
 /* popular tour section end  */
 
@@ -368,14 +385,15 @@ body {
 
 /* end of schose section */
 /* my section */
-.book{
+.book {
     width: 81.25%;
     margin: auto;
     margin-top: 4vw;
     display: flex;
 }
-.leftimage{
-    width: 100%;
+
+.leftimage {
+    width: 80%;
     background: linear-gradient(180deg, rgba(19, 19, 24, 0.80) 0%, rgba(19, 19, 24, 0.00) 100%), url(../images/left.jpeg);
     background-repeat: no-repeat;
     background-position: center;
@@ -383,27 +401,32 @@ body {
     padding: 7vw;
     border-radius: 2vw;
 }
-.leftimage h1{
+
+.leftimage h1 {
     font-size: 3.5vw;
     font-weight: 800;
     text-transform: uppercase;
     margin-bottom: 2vw;
     color: #FFF;
-   
-}
-.rightimage{
-    width: 30%;
+    
 
- 
 }
-.rightimage img{
+
+.rightimage {
+    width: 20%;
+
+
+}
+
+.rightimage img {
     width: 100%;
     border-radius: 50%;
     border: 1vw solid #FFF;
     position: relative;
-    top: 20%;
+    top: 30%;
     left: -50%;
 }
+
 /* my section end  */
 
 
@@ -778,7 +801,6 @@ footer {
         width: 100%;
     }
 
-
     .btn {
         font-size: 3.5vw;
         border-radius: 2vw;
@@ -892,38 +914,43 @@ footer {
     }
 
     /* end of schose section */
-  /* my section */
-.book{
-    width: 90%;
-    margin-top: 10vw;
-    display: flex;
-    flex-direction: column;
-}
-.leftimage{
-    width: 100%;
-    padding: 7vw;
-    padding-bottom: 50vw;
-    border-radius: 4vw;
-}
-.leftimage h1{
-    font-size: 9vw;
-    line-height: 12vw;
-}
-.rightimage{
-    width: 70%;
+    /* my section */
+    .book {
+        width: 90%;
+        margin-top: 10vw;
+        display: flex;
+        flex-direction: column;
+    }
 
- 
-}
-.rightimage img{
-    width: 100%;
-    border-radius: 50%;
-    border: 4vw solid #FFF;
-    position: relative;
-    bottom: 40vw;
-    left: 25%;
-    
-}
-/* my section end  */
+    .leftimage {
+        width: 100%;
+        padding: 7vw;
+        padding-bottom: 50vw;
+        border-radius: 4vw;
+    }
+
+    .leftimage h1 {
+        font-size: 9vw;
+        line-height: 12vw;
+    }
+
+    .rightimage {
+        width: 70%;
+
+
+    }
+
+    .rightimage img {
+        width: 100%;
+        border-radius: 50%;
+        border: 4vw solid #FFF;
+        position: relative;
+        bottom: 40vw;
+        left: 25%;
+
+    }
+
+    /* my section end  */
 
 
     /* deal section */
@@ -977,7 +1004,7 @@ footer {
     .deal-2 {
         width: 100%;
         border-radius: 4vw;
-        border: 1 solid #FFF;
+        border: 1vw solid #FFF;
         padding: 3vw;
         margin-top: 50%;
     }
@@ -1021,12 +1048,13 @@ footer {
         width: 90%;
         margin-top: 7vw;
         flex-direction: column;
+
     }
 
     .news-box {
         border-radius: 4vw;
         width: 100%;
-        padding: 8%;
+        padding: 5%;
     }
 
     .news-box h3 {
@@ -1036,12 +1064,12 @@ footer {
 
     .news-box P {
         font-size: 3.5vw;
-        margin-bottom: 3vw;
+        margin-bottom: 4vw;
     }
 
     .news-box input {
         outline: none;
-        margin-bottom: 3vw;
+        margin-bottom: 4vw;
         padding: 4vw;
         border-radius: 2vw;
 
@@ -1089,7 +1117,7 @@ footer {
         font-size: 3.5vw;
 
         line-height: 4vw;
-        margin: 4vw 0vw ;
+        margin: 4vw 0vw;
     }
 
     .foot-icons {
@@ -1098,7 +1126,7 @@ footer {
 
     .foot-icons i {
         padding: 5vw;
-        
+
     }
 
     .rights {
